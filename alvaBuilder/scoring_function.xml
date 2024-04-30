@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ALVABUILDER version="1.0.10" generation_date="04-11-2023 22:54:33">
+  <OPTIONS>
+    <AverageKind value="0"/>
+  </OPTIONS>
+  <RULES num="10">
+    <RULE id="1">
+      <Kind value="0"/>
+      <Descriptor value="MW"/>
+      <GoalKind value="2"/>
+      <Limit1 value="351.86"/>
+      <Limit2 value="539.04"/>
+    </RULE>
+    <RULE id="2">
+      <Kind value="0"/>
+      <Descriptor value="nHDon"/>
+      <GoalKind value="2"/>
+      <Limit1 value="1"/>
+      <Limit2 value="5"/>
+    </RULE>
+    <RULE id="3">
+      <Kind value="0"/>
+      <Descriptor value="nHAcc"/>
+      <GoalKind value="2"/>
+      <Limit1 value="5"/>
+      <Limit2 value="9"/>
+    </RULE>
+    <RULE id="4">
+      <Kind value="0"/>
+      <Descriptor value="LOGPcons"/>
+      <GoalKind value="2"/>
+      <Limit1 value="1.55"/>
+      <Limit2 value="4.87"/>
+    </RULE>
+    <RULE id="5">
+      <Kind value="0"/>
+      <Descriptor value="ESOL"/>
+      <GoalKind value="2"/>
+      <Limit1 value="-5.84"/>
+      <Limit2 value="-3.03"/>
+    </RULE>
+    <RULE id="6">
+      <Kind value="0"/>
+      <Descriptor value="SAscore"/>
+      <GoalKind value="0"/>
+      <Limit1 value="5.979"/>
+      <Limit2 value="Nan"/>
+    </RULE>
+    <RULE id="7">
+      <Kind value="0"/>
+      <Descriptor value="TPSA(Tot)"/>
+      <GoalKind value="2"/>
+      <Limit1 value="60.91"/>
+      <Limit2 value="152.67"/>
+    </RULE>
+    <RULE id="8">
+      <Kind value="2"/>
+      <PatternSource value="O=c1ncncn1C1CCCO1"/>
+      <GoalKind value="0"/>
+    </RULE>
+    <RULE id="9">
+      <Kind value="2"/>
+      <PatternSource value="c1ncc2ncn(C3CCCO3)c2n1"/>
+      <GoalKind value="0"/>
+    </RULE>
+    <RULE id="10">
+      <Kind value="2"/>
+      <PatternSource value="c1ncc2ccn(C3CCCO3)c2n1"/>
+      <GoalKind value="0"/>
+    </RULE>
+  </RULES>
+</ALVABUILDER>
