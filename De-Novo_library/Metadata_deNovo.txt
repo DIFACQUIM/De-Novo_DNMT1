@@ -94,6 +94,10 @@ Canonical SMILES from the curation protocol.
 -LE_Vina: Ligand efficiency computed from AutoDock Vina scores
 
 
-
+##Classification model
+-DTM: Distance to Model
+-Quartile: Quartile according to their mean Jaccard distance to the compounds in the training set
+-SVM + RDK: Model built with Support Vector Machines and RDK fingerprint
+-FFNN + Morgan: Model built with Feed-Forward Neural Networks and Morgan fingerprint with radius 2 (2048-bit)
 
 
