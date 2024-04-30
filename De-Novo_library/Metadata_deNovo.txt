@@ -101,3 +101,5 @@ Canonical SMILES from the curation protocol.
 -FFNN + Morgan: Model built with Feed-Forward Neural Networks and Morgan fingerprint with radius 2 (2048-bit)
 
 
+##SCAFFOLD
+Bemis-Murcko definition.
