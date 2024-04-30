@@ -1,0 +1,99 @@
+
+##SMILES
+SMILES from software results. 
+
+
+##DATABASE
+Information about software and source of fragments. 
+Two first letters correspond to an abbreviation of the software´s name:
+-AB:AlvaBuilder 
+-LB:LigBuilder
+
+followed by an underscore and then letters to describe the source of fragments:
+-DNMT1: DNMT1 active inhibitors from ChEMBL
+-CDDNMT: ChemDiv focused on DNMT
+-CDEPI: ChemDiv focused on epigenetic targets
+-CDSOL: ChemDiv soluble
+-FOODB: Food database
+-LCDIV: LifeChemicals Diverse
+-LCEPI: LifeChemicals Epigenetics
+-UNPDA: Natural products subset A
+-DEFLT: Default fragment library available in the software
+-CDFRG: ChemDiv Fragments Library
+-CDEPF: ChemDiv Privileged Fragments Epigenetics 
+-LCFSO: LifeChemicals Fragment Library Solubility
+-SELFR: Selleckchem Fragment Library
+
+
+
+##ID
+Unique identifier for each compound.
+Two first letters correspond to the abbreviation of the software´s name,
+followed by three letters describing the source of fragments:
+-ACT: DNMT1 active inhibitors from ChEMBL
+-CDT: ChemDiv focused on DNMT
+-CEP: ChemDiv focused on epigenetic targets
+-CSL: ChemDiv soluble
+-FOD: FooDB
+-LDV: LifeChemicals Diverse
+-LEP: LifeChemicals Epigenetics
+-UNP: Natural Products subset A
+-DEF: Default fragment library from the software
+-CDF: ChemDiv Fragments Library
+-CEF: ChemDiv Privileged Fragments Epigenetics
+-LFS: LifeChemicals Fragment Library Solubility
+-SLF: Selleckchem Fragment Library
+
+then a two-digit number that corresponds to the iteration using the same parameters,
+an underscore and a number to enumerate the compounds from the same iteration.
+
+
+
+##PROGRAM
+De novo design software used. 
+
+
+##FRAGMENTS
+Source of the fragments used for the design.
+
+
+##DATASET
+Information from the software, the source of fragments and the number of the iteration.
+Two first letters correspond to the abbreviation of the software´s name,
+followed by an underscore, the source of fragments and a two-digit number from the iteration.
+
+
+##PROGRAM_SCORE
+Results from the score implemented in each software.
+
+
+##SMILES_chiral
+Canonical SMILES from the curation protocol preserving chiral information.
+
+
+##SMILES_no_chiral
+Canonical SMILES from the curation protocol.
+
+
+##RDKit Descriptors
+-HBA: Number of Hydrogen Bond Acceptors
+-HBD: Number of Hydrogen Bond Donors
+-RB: Number of Rotatable Bonds
+-LogP: Partition coefficient octanol/water
+-TPSA: Topological Polar Surface Area
+-MW: Average Molecular Weight
+-QED: Quantitative Estimate of Druglikeness
+-SA: Synthetic Accessibility Score
+-HAC: Number of Heavy Atoms
+
+
+##Docking results
+-LeDock_scores: LeDock docking scores
+-Vina_scores: AutoDock Vina docking scores
+-LE_LeDock: Ligand efficiency computed from LeDock scores
+-LE_Vina: Ligand efficiency computed from AutoDock Vina scores
+
+
+
+
+
